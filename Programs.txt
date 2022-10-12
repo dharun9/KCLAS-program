@@ -1,0 +1,19 @@
+#Program1
+l=[]
+for i in range(1,6):
+    n=int(input("Enter  a number:"))
+    l.append(n)
+    print(l)
+
+#Program2
+arr=["git","python","data_science","iot"]
+if "iot" in arr:
+    print("The given word is present in the array")
+else:
+    print("There is no such a word")
+
+#program3
+l=[22,45,33,45,21,19,19,13,22,45]
+n=l.count(45)
+print(n)
+
